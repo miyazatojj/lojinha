@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit:wght@400;600&family=Poppins:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +7,27 @@
 
 body {
     box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 1.5% 0% 1.5% 41%;
+    background-color: #2F3B1C;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 35px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.cabecalho__menu__link:hover {
+    color: #DDDFD1;
 }
 
 .apresentacao {
