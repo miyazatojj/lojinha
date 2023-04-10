@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.apresentacao {
+    background-color: #BEC7B4;
+    color: #2F3B1C;
+    padding: 5%;
+}
+
+.apresentacao__titulo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+.apresentacao__texto {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.apresentacao__conteudo {
+    background-color: #DDDFD1;
+    display: flex;
+    align-items: center;
+    padding: 8% 25% 6% 29%;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    color: #2F3B1C;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 18px;
+}
+
+.apresentacao__conteudo__texto {
+     font-size: 18px;
+     margin-top: 9px;
+}
