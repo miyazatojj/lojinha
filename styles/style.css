@@ -11,7 +11,7 @@ body {
 
 .cabecalho {
     padding: 1.5% 0% 1.5% 41%;
-    background-color: #2F3B1C;
+    background-color: #36453B;
 }
 
 .cabecalho__menu {
@@ -64,8 +64,8 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-     font-size: 18px;
-     margin-top: 9px;
+    font-size: 18px;
+    margin-top: 9px;
 }
 
 .sobre {
@@ -76,9 +76,72 @@ body {
     color: #2F3B1C;
 }
 
+.wrapper {
+    overflow-x: hidden;
+    background-color: #DDDFD1;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.produto {
+    margin: 5%;
+}
+
+.produto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cha {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color:#032604;
+}
+
+.produto-item {
+    width: calc(50% - 16px);
+    margin: 12px;
+    max-width: 300px;
+}
+
+.produto-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.produto-item img {
+    width: 80%;
+    display: block;
+}
+
+.produto-img div {
+    width: 100%;
+    padding: 3% 1%;
+}
+
+.add-btn {
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #BEC7B4;
+    color:#2F3B1C;
+    border-radius: 10px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    cursor: pointer;   
+}
+
+.add-btn:hover {
+    background-color: #BEC7B4;
+}
+
 .rodape {
     background-color: #B7B4A2;
-    color: #2F3B1C;
+    color: #032604;
     padding: 3%;
     text-align: center;
     font-size: 15px;
