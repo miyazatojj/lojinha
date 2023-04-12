@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit:wght@400;600&family=Poppins:wght@700&family=Raleway:wght@600&family=Roboto&family=Work+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit:wght@400;600&family=Poppins:wght@700&family=Raleway:wght@600&family=Roboto:wght@400;700&family=Work+Sans:ital,wght@1,300&display=swap');
 
 * {
     margin: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 .cabecalho__menu__link:hover {
-    color: #B8BD9D;
+    color: #D7DC79;
 }
 
 .apresentacao {
@@ -137,6 +137,26 @@ body {
 
 .add-btn:hover {
     background-color: #BEC7B4;
+}
+
+.contato {
+    background-color: #DDDFD1;
+    padding: 12% 15% 12% 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    color: #2F3B1C;  
+    
+}
+
+.contato h3 {
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+.contato__email span, .contato__telefone span {
+    font-weight: 700;
 }
 
 .rodape {
